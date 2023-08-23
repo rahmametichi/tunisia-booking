@@ -1,0 +1,108 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+.form {
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.contactput,
+#message {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.contactla {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+.contactbut:hover {
+  background: #cb896a;
+}
+
+.contactbut:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+.contactbut:hover {
+  transition: 0.3s all;
+}
+
+.contactbut {
+  -webkit-appearance: none;
+}
+
+.contactbut {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+pre {
+  color: white;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.contactbut {
+  background-color: #cb896a;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  width: 500px;
+}
+.contwal {
+  background: white;
+  
+}
+
+.aps {
+  max-width: 600px;
+  box-shadow:  5px 10px 0.5em 0.5em grey;
+  background-color: #302e2f;
+  padding:0px 20px;
+  border-radius: 10px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
